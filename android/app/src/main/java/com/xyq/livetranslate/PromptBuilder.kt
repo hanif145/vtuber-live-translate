@@ -62,6 +62,7 @@ object TranslationLanguageCatalog {
         TranslationLanguage("fr", "法语", R.string.rt_lang_fr),
         TranslationLanguage("de", "德语", R.string.rt_lang_de),
         TranslationLanguage("ru", "俄语", R.string.rt_lang_ru),
+        TranslationLanguage("id", "印尼语", R.string.rt_lang_id),
     )
 
     fun source(code: String): TranslationLanguage =
