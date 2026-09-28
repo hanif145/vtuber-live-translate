@@ -13,6 +13,7 @@
     <string name="rt_lang_fr">法语</string>
     <string name="rt_lang_de">德语</string>
     <string name="rt_lang_ru">俄语</string>
+    <string name="rt_lang_id">Indonesia</string>
     <!-- 默认场景模板名：仅影响首次初始化与恢复模板，不覆盖用户已编辑的场景 -->
     <string name="rt_scene_general">通用</string>
     <string name="rt_scene_meeting">会议</string>
