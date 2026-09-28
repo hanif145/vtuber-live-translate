@@ -13,6 +13,7 @@
     <string name="rt_lang_fr">French</string>
     <string name="rt_lang_de">German</string>
     <string name="rt_lang_ru">Russian</string>
+    <string name="rt_lang_id">Indonesian</string>
     <!-- Default scene template names: affect first-time setup and template restore only -->
     <string name="rt_scene_general">General</string>
     <string name="rt_scene_meeting">Meeting</string>
