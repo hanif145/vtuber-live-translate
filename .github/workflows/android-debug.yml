@@ -1,8 +1,6 @@
 name: Android Debug Build
 
-# 交付以本地验证（单测 + Lint + assembleDebug）为准；远端只在手动触发时构建，
-# 用于需要下载 APK artifact 或独立复核的场合（2026-09-13 起不再随 push/PR 自动运行）。
-"on":
+on:
   workflow_dispatch:
 
 permissions:
@@ -28,7 +26,10 @@ jobs:
           java-version: "17"
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+          cmdline-tools-version: 12266719
+          packages: platform-tools
 
       - name: Set up Gradle cache
         uses: gradle/actions/setup-gradle@v4
